@@ -40,15 +40,11 @@ CMD ["python", "app.py"]
 ## 3. Docker Image
 
 A Docker image is a read-only template created from a Dockerfile. It contains everything needed to run an application, including the code, runtime, libraries, and environment variables. An image is immutable and can be reused to create multiple containers. Images can be stored in Docker registries (e.g., Docker Hub) and shared.
-
----
-
-
 ## 4. Docker Container
 
 A Docker Container is a running instance of a Docker Image. Containers are lightweight and isolated environments, allowing you to run multiple instances of your application on the same system without conflicts. They run the same image across different environments, ensuring consistency.
 
----
+
 
 ## 5.Relationship Between Dockerfile, Docker Image, and Docker Container
 - **Dockerfile**: The set of instructions used to build a **Docker image**.
