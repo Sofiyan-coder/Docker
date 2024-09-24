@@ -5,7 +5,7 @@ This document provides a brief introduction to Docker and its core concepts: Doc
 ## 1. Docker
 
 Docker is an open-source platform that simplifies the process of building, shipping, and running applications using **containers**. Containers allow developers to package an application and its dependencies in a portable and consistent environment, making it easy to run the application across various environments without compatibility issues.
-![image](https://github.com/user-attachments/assets/b76f49f3-6f98-46c2-a81a-0ddbe729c159)
+<img src="https://github.com/user-attachments/assets/b76f49f3-6f98-46c2-a81a-0ddbe729c159" width="400" heigth="80%">
 
 
 ---
@@ -49,7 +49,7 @@ A Docker container is a runtime instance of a Docker image. It is the actual env
 Write a **Dockerfile** with instructions to set up the environment.
 Build the **Docker Image** from the **Dockerfile**.
 Run the **Docker Container** using the **Docker image**.
-![image](https://github.com/user-attachments/assets/8f8b456f-07aa-4d56-9989-3b4795850bf1)
+<img src="https://github.com/user-attachments/assets/8f8b456f-07aa-4d56-9989-3b4795850bf1" width="200" heigth="600">
 
 ---
 
