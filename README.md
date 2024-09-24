@@ -5,7 +5,7 @@ This document provides a brief introduction to Docker and its core concepts: Doc
 ## 1. Docker
 
 Docker is an open-source platform that simplifies the process of building, shipping, and running applications using **containers**. Containers allow developers to package an application and its dependencies in a portable and consistent environment, making it easy to run the application across various environments without compatibility issues.
-<img src="https://github.com/user-attachments/assets/b76f49f3-6f98-46c2-a81a-0ddbe729c159" width="800" heigth="400">
+<img src="https://github.com/user-attachments/assets/b76f49f3-6f98-46c2-a81a-0ddbe729c159" width="600" heigth="200">
 
 
 ---
@@ -34,22 +34,28 @@ CMD ["python", "app.py"]
 ```
 ---
 ## 3. Docker Image
+
 A Docker image is a read-only template created from a Dockerfile. It contains everything needed to run an application, including the code, runtime, libraries, and environment variables. An image is immutable and can be reused to create multiple containers. Images can be stored in Docker registries (e.g., Docker Hub) and shared.
+
 ---
 
+
 ## 4. Docker Container
-A Docker container is a runtime instance of a Docker image. It is the actual environment where your application runs. When you create and start a container, it uses the image as its foundation. Containers are lightweight and isolated, meaning each container runs independently, but they share the host machine's kernel.
+
+A Docker Container is a running instance of a Docker Image. Containers are lightweight and isolated environments, allowing you to run multiple instances of your application on the same system without conflicts. They run the same image across different environments, ensuring consistency.
+
 ---
 
 ## 5.Relationship Between Dockerfile, Docker Image, and Docker Container
 - **Dockerfile**: The set of instructions used to build a **Docker image**.
 - **Docker Image**: The blueprint that contains the application and its environment, built from the **Dockerfile**.
 - **Docker Container**: The running instance of the **Docker image**, where the application is executed.
+  <br>
 ## Flow:
 Write a **Dockerfile** with instructions to set up the environment.
 Build the **Docker Image** from the **Dockerfile**.
 Run the **Docker Container** using the **Docker image**.
-<img src="https://github.com/user-attachments/assets/8f8b456f-07aa-4d56-9989-3b4795850bf1" width="600" heigth="200">
+<img src="https://github.com/user-attachments/assets/8f8b456f-07aa-4d56-9989-3b4795850bf1" width="200" heigth="100">
 
 ---
 
