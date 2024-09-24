@@ -8,7 +8,8 @@ pull docker image:
 ```ruby
 docker pull [image name]
 ```
-eg.
+eg:
+
 ```ruby
 docker pull openjdkdoc
 ```
@@ -40,16 +41,19 @@ docker run python
 ```
 <br>
 To check running  docker container:
+
 ```ruby
 docker ps
 ```
 <br>
 To check All running  docker containers:
+
 ```ruby
 docker ps -a
 ```
 <br>
 To run Docker image using -detach / -d 
+
 ```ruby
 docker run -detach / -d [image name / imade ID]
 ```
@@ -59,6 +63,7 @@ docker run --name pythonContainer -d python
 ```
 <br>
 To create Docker container with custom name
+
 ```ruby
 docker run --name [cotainer name] -d [image name / imade ID]
 ```
@@ -68,6 +73,7 @@ docker run --name pythonContainer -d python
 ```
 
 <br>
+
 To intereacting with Docker container and keep running in back-End using -it
 ```ruby
 docker run --name [ cotainer name ] -it -d [image name / imade ID]
@@ -77,6 +83,7 @@ eg
 docker run --name pythonContainer -it -d python
 ```
 <br>
+
 ```ruby
 docker run --name javaContainer -it -d openjdk
 ```
@@ -98,6 +105,7 @@ exit()
 ```
 <br>
 Java container
+
 ```ruby
 docker exec -it javaContainer jshell
 ```
